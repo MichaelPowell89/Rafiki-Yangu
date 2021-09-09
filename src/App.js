@@ -20,7 +20,7 @@ function App() {
       <div className="app">
 			<Router>
 				<Navbar />
-				{Home}
+				<Home/>
 				<Switch>
 					<Route path="/" exact component={Home} />
 
