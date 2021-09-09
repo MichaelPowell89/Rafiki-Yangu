@@ -22,7 +22,7 @@ const Navbar = () => {
 	<header class="navbar">
 		<div class="container">
 			<nav class="navbar">
-				<a class="navbar-brand" href="/">
+				<a class="navbar-brand" href="/Rafiki-yangu">
 				<img src="images/Rafiki-Yangu-Logo.png" class="nav-logo"></img>
 				<img src="images/Rafiki-Yangu-Text.png" class="nav-text"></img>
 				</a>
