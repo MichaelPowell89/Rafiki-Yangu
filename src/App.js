@@ -1,7 +1,8 @@
 import React from "react";
 // import Header from "./components/Header"
 import Footer from "./components/Footer"
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+//import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import Home from "./views/Home"
 import OurWishes from './views/OurWishes';
