@@ -23,8 +23,8 @@ const Navbar = () => {
 		<div class="container">
 			<nav class="navbar">
 				<a class="navbar-brand" href="/">
-				<img src="images/Rafiki-Yangu-Logo.png" class="nav-logo"></img>
-				<img src="images/Rafiki-Yangu-Text.png" class="nav-text"></img>
+				<img src="/Rafiki-Yangu/images/Rafiki-Yangu-Logo.png" class="nav-logo"></img>
+				<img src="/Rafiki-Yangu/images/Rafiki-Yangu-Text.png" class="nav-text"></img>
 				</a>
 				  <div onClick={handleClick} className="nav-icon">
 			 		{open ? <FiX /> : <FiMenu />}
