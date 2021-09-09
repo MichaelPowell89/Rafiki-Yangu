@@ -1,8 +1,8 @@
 import React from "react";
 // import Header from "./components/Header"
 import Footer from "./components/Footer"
-//import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { HashRouter as Router, Switch, Route, HashRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+//import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import Home from "./views/Home"
 import OurWishes from './views/OurWishes';
@@ -18,8 +18,9 @@ function App() {
   return (
     <div>
       <div className="app">
-			<HashRouter>
+			<Router>
 				<Navbar />
+				{Home}
 				<Switch>
 					<Route path="/" exact component={Home} />
 
@@ -41,7 +42,7 @@ function App() {
 					{/* <Route path="/Login" exact component={Login} />
 					<Route path="/contentControl" exact component={contentControl} /> */}
 				</Switch>
-			</HashRouter>
+			</Router>
       <Footer />
       </div>
     </div>
