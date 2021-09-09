@@ -21,6 +21,7 @@ function App() {
 			<Router>
 				<Navbar />
 				<Home/>
+				<div>Hello</div>
 				<Switch>
 					<Route path="/" exact component={Home} />
 
