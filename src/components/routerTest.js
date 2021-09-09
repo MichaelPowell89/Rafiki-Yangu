@@ -19,7 +19,7 @@ function routerTest() {
 				<Switch>
 					<Route path="/" exact component={Home} />
 					<Route path="/Our Wishes" exact component={Wishes} />
-					<Route path="/about" exact component={About} />
+					<Route path="/rafiki-yangu/about" exact component={About} />
 					<Route path="/WhoWeHelp" exact component={WhoWeHelp} />
 					<Route path="/HowYouHelp" exact component={HowYouHelp} />
 					<Route path="/contact" exact component={Contact} />
