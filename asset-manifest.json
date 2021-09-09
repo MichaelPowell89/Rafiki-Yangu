@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/Rafiki-Yangu/static/js/main.b0af03ee.chunk.js",
+    "main.js.map": "/Rafiki-Yangu/static/js/main.b0af03ee.chunk.js.map",
+    "runtime-main.js": "/Rafiki-Yangu/static/js/runtime-main.97a7cc04.js",
+    "runtime-main.js.map": "/Rafiki-Yangu/static/js/runtime-main.97a7cc04.js.map",
+    "static/js/2.460915cf.chunk.js": "/Rafiki-Yangu/static/js/2.460915cf.chunk.js",
+    "static/js/2.460915cf.chunk.js.map": "/Rafiki-Yangu/static/js/2.460915cf.chunk.js.map",
+    "index.html": "/Rafiki-Yangu/index.html",
+    "static/js/2.460915cf.chunk.js.LICENSE.txt": "/Rafiki-Yangu/static/js/2.460915cf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97a7cc04.js",
+    "static/js/2.460915cf.chunk.js",
+    "static/js/main.b0af03ee.chunk.js"
+  ]
+}

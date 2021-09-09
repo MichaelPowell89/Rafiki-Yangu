@@ -1,0 +1,454 @@
+  :root
+  {
+  --primaryColour: #1685b7;
+  --secondaryColour: black;
+
+  }
+
+  * 
+  {
+    color: white;
+  }
+
+  html
+  {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body
+  {
+    background-image: url("https://www.transparenttextures.com/patterns/mirrored-squares.png");
+  }
+
+  ul
+  {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .row
+  {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  a:hover
+  {
+    text-decoration: none !important;
+  }
+
+
+  /*////////////////////// Page Title ///////////////////////////////////////////*/
+  /* To be removed */
+
+  header
+  {
+    color: black;
+  }
+
+  .btn
+  {
+    border-radius: 30px !important;
+    padding: .5em 1.25em !important;
+    background-color: var(--secondaryColour) !important;
+    transition: .5s !important;
+  }
+
+  .btn:hover
+  {
+    transform: scale(1.1);
+    text-decoration: none;
+  }
+
+  @media (min-width: 1200px)
+  {
+    .container
+    {
+      max-width: 1440px !important;
+    }
+  }
+
+  /*///////////////////////////////////////////////////////////////////////////////*/
+  /*///////////////////// Donations Page //////////////////////////////////////////*/
+  .loginPage
+  {
+    justify-content: center;
+    padding: 10%;
+  }
+
+  /*///////////////////////////////////////////////////////////////////////////////*/
+  /*///////////////////// Donations Page //////////////////////////////////////////*/
+
+  /*///// Move Later ////*/
+  .pageContent
+  {
+    margin: 5% 0;
+  }
+
+  .donationLogo
+  {
+    height: 150px;
+    margin: auto;
+    padding: 3%;
+  }
+
+  .donationText
+  {
+    color: black;
+  }
+
+  .donationBlock
+  {
+    z-index: -1;
+  }
+
+  /*///////////////////////////////////////////////////////////////////////////////*/
+  /*/////////////////////// Footer Area ///////////////////////////////////////////*/
+  
+  .footerDonateContainer
+  {
+    background-color: var(--primaryColour);
+    padding: 1rem 4rem;
+  }
+
+
+
+  footer
+  {
+    background-color: var(--secondaryColour);
+  }
+
+  li
+  {
+    list-style-type: none; /* Remove bullets*/
+  }
+
+  hr
+  {
+    border: 10px;
+    color: white;
+  }
+
+  .footerColor
+  {
+    background-color:var(--primaryColour);
+  }
+
+  .footerHeader
+  {
+    /* padding: 1.5%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footerBody
+  {
+    padding: 2%;
+  }
+
+  .social-nav-list 
+  {
+    display: flex;
+  }
+
+  .social-nav-list-item 
+  {
+    padding: 0 3%;
+  }
+
+  footer li a
+  {
+    color: var(--primaryColour);
+  }
+
+  /*///////////////////////////////////////////////////////////////////////////////*/
+  /*/////////////////////// Content Area ///////////////////////////////////////////*/
+
+  .donateHeader
+  {
+    padding: 1%;
+    background-color: var(--primaryColour);
+  }
+
+  .donateButton
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner
+  {
+    background-color: black;
+  }
+
+  .wishesBanner
+  {
+    padding: 5%;
+  }
+
+  .wishBannerHeading
+  {
+    color:white;
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .wishBannerText
+  {
+    color:white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  .ContentHeading
+  {
+    color:var(--secondaryColour);
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .ContentText
+  {
+    color:var(--secondaryColour);
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .content-container
+  {
+    padding: 2% 5%;
+  }
+
+  .howYouHelpHeader
+  {
+    color:white;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 2.5%;
+    text-align: center;
+  }
+
+  .placeHolder
+  {
+    color: red;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 10% auto;
+    padding: 2%;
+  }
+
+  .centreAlign
+  {
+    text-align: center;
+  }
+
+  .colourOveride
+  {
+    color: white !important;
+  }
+
+
+  .sectionHeader
+  {
+    color: black;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .dictionary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    color: black;
+  }
+
+  .card-group
+  {
+    padding: 2em 1em 0em;
+  }
+
+  .card
+  {
+    max-width: 400px;
+  }
+
+  .card-body
+  {
+    overflow: hidden;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .card-title
+  {
+    color: var(--secondaryColour);
+  }
+
+  .card-text
+  {
+    color: var(--secondaryColour);
+    overflow-wrap: normal;
+  }
+
+  .expandCard
+  {
+
+  }
+
+  .collapseCard
+  {
+    max-height: 162px;
+  }
+
+  .showMore
+  {
+    padding: 2em 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 825px){
+    .dictionary > .term {
+        margin-bottom: 15%;
+    }
+  }
+  
+  .work {
+    display: block;
+    font-size: 200%;
+    text-align: center;
+  }
+
+  /*///////////////////////////////////////////////////////////////////////////////*/
+  /*///////////////////////////// NavBar /////////////////////////////////////////*/
+
+  .navbar
+  {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondaryColour);
+    width: 100%;
+  }
+
+  .nav-logo
+  {
+    max-height: 62px;
+    margin-right: .5em;
+  }
+
+  .nav-text
+  {
+    max-height: 62px;
+  }
+
+  .nav-icon
+  {
+    display: none;
+  }
+
+  .nav-links
+  {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+  }
+
+  .nav-links ul
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .nav-link
+  {
+	  color: white;
+	  transition: 0.3s all;
+  }
+
+  .nav-link:hover {
+	  color: var(--primaryColour);
+    transform: scale(1.1);
+  }
+
+  .social-nav-list-item
+  {
+	  transition: 0.3s all;
+  }
+
+  .social-nav-list-item:hover
+  {
+    transform: scale(1.1);
+  }
+
+  .social-nav-list-item:hover path
+  {
+    fill: var(--primaryColour);
+  }
+
+  .social-nav-list-item:hover circle
+  {
+    stroke: var(--primaryColour);
+  }
+
+@media screen and (max-width: 991px)
+{
+
+/* Hamburger Icon */
+  .nav-icon {
+    display: flex;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .nav-links {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      top: -300%;
+      transition: 0.5s all;
+      z-index: 1;
+  }
+
+  .nav-links.active {
+      background: rgb(0, 0, 0);
+      left: 0;
+      top: 80px;
+  }
+
+  .nav-item {
+      padding: 10px 0;
+      border-style: solid;
+      border-color: #fff;
+      border-width: 1px 0px 1px 0px;
+  }
+}
+
+  .header-dropdown-content {
+    background-color:Black;
+    /* -webkit-box-shadow: 0 1px 1px 0 #bbbcbc; */
+    /* box-shadow: 0 1px 1px 0 #bbbcbc; */
+    /* display: none; */
+    /* left: -10%; */
+    padding: 1rem 0 1rem 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 399;
+}
+
+.header-dropdown-content ul
+{
+  display: grid !important;
+}
