@@ -18,11 +18,8 @@ function App() {
   return (
     <div>
       <div className="app">
-	  	<div>Hello</div>
 			<Router>
 				<Navbar />
-				<Home/>
-				<div>Hello</div>
 				<Switch>
 					<Route path="/" exact component={Home} />
 
