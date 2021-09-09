@@ -42,15 +42,15 @@ const Navbar = () => {
               </a>
               <div className = {isToggled ? "header-dropdown-content" : "dropdown-menu"}>
                 <ul>
-                  <li><a class="nav-link" href="/About">About us</a></li>
-                  <li><a class="nav-link" href="/WhoWeHelp">Who we can help</a></li>
-                  <li><a class="nav-link" href="/HowYouHelp">How you can help</a></li>
+                  <li><a class="nav-link" href="/rafiki-yangu/About">About us</a></li>
+                  <li><a class="nav-link" href="/rafiki-yangu/WhoWeHelp">Who we can help</a></li>
+                  <li><a class="nav-link" href="/rafiki-yangu/HowYouHelp">How you can help</a></li>
                 </ul>
               </div>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="/Contact" onClick={closeMenu}>Contact</a>
+              <a class="nav-link" href="/rafiki-yangu/Contact" onClick={closeMenu}>Contact</a>
             </li>
           </ul>
 				  <ul>
