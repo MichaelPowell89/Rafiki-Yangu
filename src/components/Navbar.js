@@ -42,7 +42,7 @@ const Navbar = () => {
               </a>
               <div className = {isToggled ? "header-dropdown-content" : "dropdown-menu"}>
                 <ul>
-                  <li><a class="nav-link" href="/About">About us</a></li>
+                  <li><a class="nav-link" href="/Rafiki-Yangu/About">About us</a></li>
                   <li><a class="nav-link" href="/WhoWeHelp">Who we can help</a></li>
                   <li><a class="nav-link" href="/HowYouHelp">How you can help</a></li>
                 </ul>
