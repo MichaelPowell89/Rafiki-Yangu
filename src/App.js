@@ -23,16 +23,16 @@ function App() {
 					<Route path="/" exact component={Home} />
 
 					{/* //Wishes Page */}
-					<Route path="/rafiki-yangu/OurWishes" exact component={OurWishes} />
+					<Route path="/OurWishes" exact component={OurWishes} />
 
 					{/* Drop Down About us */}
-					<Route path="/rafiki-yangu/About" exact component={About} />
-					<Route path="/rafiki-yangu/WhoWeHelp" exact component={WhoWeHelp} />
-					<Route path="/rafiki-yangu/HowYouHelp" exact component={HowYouHelp} />
-					<Route path="/rafiki-yangu/contact" exact component={Contact} />
-					<Route path="/rafiki-yangu/donate" exact component={Donate} />
-					<Route path="/rafiki-yangu/Login" exact component={Login} />
-					<Route path="/rafiki-yangu/contentControl" exact component={contentControl} />
+					<Route path="/About" exact component={About} />
+					<Route path="/WhoWeHelp" exact component={WhoWeHelp} />
+					<Route path="/HowYouHelp" exact component={HowYouHelp} />
+					<Route path="/contact" exact component={Contact} />
+					<Route path="/donate" exact component={Donate} />
+					<Route path="/Login" exact component={Login} />
+					<Route path="/contentControl" exact component={contentControl} />
 				</Switch>
 			</Router>
       <Footer />
